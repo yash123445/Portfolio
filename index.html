@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Pawar's Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        .Projects {
+            display: flex;
+        }
+
+        .final,
+        .self {
+            flex: 1; /* Use flex property to distribute space evenly */
+        }
+
+        .final,
+        .self span {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Add any additional styles here */
+
+        hr {
+            border: 1px solid #ccc; /* Adjust the border properties as needed */
+            margin: 20px 0; /* Add margin for spacing */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="1701061952326.jpg" alt="Description of the image" width="200" height="200">
+        <span>
+            <h1>Yash Pawar</h1>
+            <h4>Electronics &amp; Tele. Engineer</h4>
+        </span>
+    </div>
+
+    <div class="menu">
+        <h4 onclick="scrollToSection('about-me')"><i class='bx bxs-user'></i>About Me</h4>
+        <h4 onclick="scrollToSection('Education')">Education</h4>
+        <h4 onclick="scrollToSection('projects')"><i class='bx bx-folder'></i>Projects</h4>
+        <h4 onclick="scrollToSection('skills')"><i class='bx bxs-code'></i>Skills</h4>
+        <h4 onclick="scrollToSection('contacts')"><i class='bx bx-mail-send'></i>Contacts</h4>
+        <h4><a href="Yash_Pawar_Resume.pdf" target="_blank" download><i class='bx bx-download'></i>Download Resume</a></h4>
+    </div>
+
+    <div>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <hr>
+            
+        <p>I am Yash Pawar, a recent graduate with a Bachelor's degree in Electronics and Telecommunication Engineering from Savitribai Phule
+            Pune University, achieving an impressive CGPA of 8.34. Eager to launch my career in the IT industry, I am a highly motivated and
+            technically proficient individual seeking opportunities to apply my knowledge and skills.
+            </p>
+        </section>
+    </div>
+    <hr>
+    <div>
+        <section id ="Education">
+            <h2>Education</h2><hr>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Institute</th>
+                        <th>Year Of Passing</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BE in E&Tc</td>
+                        <td>Marathwada Mitra Mandal's College Of Engineering Pune</td>
+                        <td>2023</td>
+                        <td>8.34</td>
+                    </tr>
+                    <tr>
+                        <td>12th </td>
+                        <td>Vasantrao Sakharam Sanas Jr. College Pune</td>
+                        <td>2019</td>
+                        <td>63.69</td>
+                    </tr>
+                    <tr>
+                        <td>10th</td>
+                        <td>Narayanrao Sanas Vidhyalaya Pune</td>
+                        <td>2017</td>
+                        <td>74.80</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div><hr>
+    <section id="projects">
+        <h2>Projects</h2>
+        <hr>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <h4 align ="justify">IOT Based Smart Shopping Cart Using RFID</h4><hr>
+                <p>Final Year Project | 08/2022 - 03/2023</p>
+                    <p align ="justify">This innovative project involved integrating RFID tags and sensors to enhance the traditional shopping experience. The cart was
+                    designed to automatically identify and tally items using RFID tags, streamlining the checkout process and improving efficiency for
+                    both customers and retailers</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <h4 align ="justify">Cricket Score Master</h4><hr>
+                <p>Self Employed | 07/2023 - 08/2023</p>
+                <p align ="justify">I independently developed a player statistics management system using C++, incorporating features such as player addition, deletion,
+                    search, and statistics updating. This project demonstrates my proficiency in C++ programming and my ability to design and
+                    implement a user-friendly system for efficiently managing and analyzing player statistics</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <h4 align ="justify">Library Management System</h4><hr>
+                <p>Self Employed | 03/2023 - 04/2023</p>
+                <p align ="justify">I independently developed a Library Management System using the C programming language, showcasing my proficiency in software
+                    development. This project involved creating a robust system with key features, including adding, deleting, updating, searching, and
+                    displaying the book list. By leveraging my programming skills, I designed an efficient and user-friendly solution that demonstrates
+                    my expertise in C programming and problem-solving.
+                    </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="skills">
+        <h2>Skills</h2>
+        <hr>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Core Java</li>
+                                <li>HTML 5</li>
+                                <li>OOPs</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>C++</li>
+                                <li>CSS</li>
+                                <li>My SQL </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>C Programming Language</li>
+                                <li>JavaScript</li>
+                                <li>IOT</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </section>
+    <hr>
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <hr>
+        <div>
+            <p><i class='bx bxs-envelope'></i> yashbpawar2002@gmail.com</p>
+            <p><i class='bx bx-phone'></i>+91 9527264618</p>
+        </div>
+    </section>
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+
+</body>
+
+</html>
