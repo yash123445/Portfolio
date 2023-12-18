@@ -75,6 +75,7 @@
         .contacts {
             margin-bottom: 20px;
             display: inline-flex;
+            padding: 5px;
         }
 
         #contacts p {
@@ -82,3 +83,14 @@
             margin-right: 20%;
             display: inline-flex;
         }
+    section#Education,
+    section#contacts {
+        margin-left: 10px; /* Adjust the value as needed */
+    }
+    section#skills table {
+        border-spacing: 10px; /* Adjust the value as needed for space between columns and rows */
+    }
+
+    section#skills td {
+        padding: 10px; /* Adjust the value as needed for space within each cell */
+    }
