@@ -7,6 +7,9 @@
     <title>Yash Pawar's Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         .Projects {
             display: flex;
@@ -36,11 +39,10 @@
 
 <body>
     <div class="header">
-        <img src="1701061952326.jpg" alt="Description of the image" width="200" height="200">
-        <span>
-            <h1>Yash Pawar</h1>
-            <h4>Electronics &amp; Tele. Engineer</h4>
-        </span>
+        <img src="1701061952326.jpg" class="rounded" alt="Cinque Terre" width="304" height="236">
+    <span>
+        <h1>Yash Pawar</h1>
+        <h4>Electronics &amp; Tele. Engineer</h4>
     </div>
 
     <div class="menu">
@@ -49,6 +51,7 @@
         <h4 onclick="scrollToSection('projects')"><i class='bx bx-folder'></i>Projects</h4>
         <h4 onclick="scrollToSection('skills')"><i class='bx bxs-code'></i>Skills</h4>
         <h4 onclick="scrollToSection('contacts')"><i class='bx bx-mail-send'></i>Contacts</h4>
+        <h4><a href="https://drive.google.com/file/d/1U_pGWOOYiPEZcAY60uasfu3KZ7RWuiXX/view?usp=drive_link" target="_blank" download><i class='bx bx-download'></i>Download Resume</a></h4>
     </div>
 
     <div>
@@ -66,7 +69,7 @@
     <div>
         <section id ="Education">
             <h2>Education</h2><hr>
-            <table border="1">
+            <table border="1" margin-left="10%">
                 <thead>
                     <tr>
                         <th>Course</th>
@@ -106,40 +109,61 @@
                 <h3>Project 1</h3>
                 <h4 align ="justify">IOT Based Smart Shopping Cart Using RFID</h4><hr>
                 <p>Final Year Project | 08/2022 - 03/2023</p>
-                    <p align ="justify">This innovative project involved integrating RFID tags and sensors to enhance the traditional shopping experience. The cart was
+                    <!-- <p align ="justify">This innovative project involved integrating RFID tags and sensors to enhance the traditional shopping experience. The cart was
                     designed to automatically identify and tally items using RFID tags, streamlining the checkout process and improving efficiency for
-                    both customers and retailers</p>
+                    both customers and retailers</p> -->
+                    <p>
+                        <img src="smart-shopping-trolley-rfid-iot-4608-by-3456-1-scaled.jpg" class="rounded" alt="Cinque Terre" width="400" height="236">
+                    </p>
+                    <p>
+                        <a href="https://github.com/yash123445/Library-Management/blob/main/Final%20Year%20Project/Info.md" class="btn btn-primary">View Info</a>
+                    </p>
             </div>
             <div class="project">
                 <h3>Project 2</h3>
                 <h4 align ="justify"> Bank Account Tracker</h4><hr>
                 <p>Self Employed | 11/2023 - 12/2023</p>
-                <p align ="justify">Developed a robust Bank Account Management System in Java, utilizing Object-Oriented Programming principles and Collections. This application allows users to open various types of accounts (Savings, Salary, Current), 
+                <!-- <p align ="justify">Developed a robust Bank Account Management System in Java, utilizing Object-Oriented Programming principles and Collections. This application allows users to open various types of accounts (Savings, Salary, Current), 
                     perform transactions (deposit, withdraw), and view detailed transaction history. Incorporated features such as account auto-numbering, last transaction tracking, and serialization for data persistence.
                     This project showcases strong Java programming skills, algorithmic thinking, and a deep understanding of financial system logic.
+                    </p> -->
+                    <p>
+                        <img src="2003.i105.019..isometric bank flowchart.jpg" class="rounded" alt="Cinque Terre" width="400" height="236">
                     </p>
-                    <a href="https://github.com/yash123445/Java/tree/main/Bank%20Account">For Code Click Here</a>
+                    <p>
+                        <a href="https://github.com/yash123445/Java/tree/main/Bank%20Account" class="btn btn-primary">View Code</a>
+                    </p>
 
             </div>
             <div class="project">
                 <h3>Project 3</h3>
-                <h4 align ="justify">Cricket Score Master</h4><hr>
+                <h4 align="justify">Cricket Score Master</h4>
+                <hr>
                 <p>Self Employed | 07/2023 - 08/2023</p>
-                <p align ="justify">I independently developed a player statistics management system using C++, incorporating features such as player addition, deletion,
+                <!-- <p align="justify">I independently developed a player statistics management system using C++, incorporating features such as player addition, deletion,
                     search, and statistics updating. This project demonstrates my proficiency in C++ programming and my ability to design and
-                    implement a user-friendly system for efficiently managing and analyzing player statistics</p>
-                    <a href="https://github.com/yash123445/Player-Management-Using-C-">For Code Click Here</a>
+                    implement a user-friendly system for efficiently managing and analyzing player statistics</p> -->
+                    <p>
+                        <img src="images.jpg" class="rounded" alt="Cinque Terre" width="400" height="236">
+                    </p>
+                <p>
+                    <a href="https://github.com/yash123445/Player-Management-Using-C-" class="btn btn-primary">View Code</a>
+                </p>
             </div>
+            
             <div class="project">
                 <h3>Project 4</h3>
                 <h4 align ="justify">Library Management System</h4><hr>
                 <p>Self Employed | 03/2023 - 04/2023</p>
-                <p align ="justify">I independently developed a Library Management System using the C programming language, showcasing my proficiency in software
+                <!-- <p align ="justify">I independently developed a Library Management System using the C programming language, showcasing my proficiency in software
                     development. This project involved creating a robust system with key features, including adding, deleting, updating, searching, and
                     displaying the book list. By leveraging my programming skills, I designed an efficient and user-friendly solution that demonstrates
-                    my expertise in C programming and problem-solving.
+                    my expertise in C programming and problem-solving. -->
+                    <p>
+                        <img src="31703.jpg" class="rounded" alt="Cinque Terre" width="400" height="236">
                     </p>
-                    <a href="https://github.com/yash123445/Library-Management">For Code Click Here</a>
+                    </p>
+                    <a href="https://github.com/yash123445/Library-Management" class="btn btn-primary">View Code</a>
             </div>
             
         </div>
@@ -150,31 +174,21 @@
         <hr>
         <div>
             <table>
-                <thead>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>Core Java</li>
-                                <li>HTML 5</li>
-                                <li>OOPs</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>C++</li>
-                                <li>CSS</li>
-                                <li>My SQL </li>
-                            </ul>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>C Programming Language</li>
-                                <li>JavaScript</li>
-                                <li>IOT</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </thead>
+                <tr>
+                    <td><img src="Java-Logo.png" class="rounded" alt="Java" width="40px"></td>
+                    <td><img src="png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue.png" class="rounded" alt="HTML5" width="40px"></td>
+                    <td><img src="695px-C_Programming_Language.svg.png" class="rounded" alt="Logo1" width="30px"></td>
+                </tr>
+                <tr>
+                    <td><img src="HTML5_logo_and_wordmark.svg.png" class="rounded" alt="C" width="30px"></td>
+                    <td><img src="CSS3_logo_and_wordmark.svg.png" class="rounded" alt="CSS3" width="30px"></td>
+                    <td><img src="Javascript_badge.svg.png" class="rounded" alt="Download" width="40px"></td>
+                </tr>
+                <tr>
+                    <td><img src="1_qSVJ3X2zX5QCZyKMXEsIzw.png" class="rounded" alt="C Programming" width="50px"></td>
+                    <td><img src="download.png" class="rounded" alt="JavaScript" width="60px"></td>
+                    <td><img src="334e063ae9f247704b37549b4b0f47d1.png" class="rounded" alt="Logo2" width="40px"></td>
+                </tr>
             </table>
         </div>
     </section>
